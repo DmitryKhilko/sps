@@ -323,7 +323,7 @@ ISO/IEC 25024.
     - наименование: Системная и программная инженерия. Требования и оценка качества систем и программного обеспечения (SQuaRE). Измерение качества данных 
     - соответствие ISO: аналог
 
-[//]: # (ГОСТ Р 72663-2026 (ИСО/МЭК 25024:2015): https://meganorm.ru/mega_doc/norm_update_01082026/gost-r_gosudarstvennyj-standart/0/gost_r_72663-2026_iso_mek_25024_2015_natsionalnyy_standart.html)
+[//]: # (ГОСТ Р 72663-2026: https://meganorm.ru/mega_doc/norm_update_01082026/gost-r_gosudarstvennyj-standart/0/gost_r_72663-2026_iso_mek_25024_2015_natsionalnyy_standart.html)
 
 [*Переход вверх*][8]
 
