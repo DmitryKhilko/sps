@@ -3,11 +3,11 @@
 ## Оглавление
 - [Библиография][3]
 - [Глоссарий][4]
-- [Этапы жизненного цикла программного продукта][5]
+- [Архитектура базы знаний][5]
 
 [1]: <./README.md> ""
 [2]: <./knowledge-base-structure.md> ""
 [3]: <./bibliography.md> ""
 [4]: <./glossary.md> ""
-[5]: <./sdlc.md> ""
+[5]: <./knowledge-base-architecture.md> ""
 
