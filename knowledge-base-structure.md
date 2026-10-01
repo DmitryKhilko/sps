@@ -1,13 +1,20 @@
 [О базе знаний][1] › Структура базы знаний
 
+# Структура базы знаний
+
 ## Содержание
+
 - [Библиография][3]
 - [Глоссарий][4]
-- [Архитектура базы знаний][5]
+- Архитектура базы знаний
+    - [Технологический стек][5]
+    - [Принципы формирования][6]
+    - [Правила оформления статей в Markdown][7]
 
 [1]: <./README.md> ""
 [2]: <./knowledge-base-structure.md> ""
 [3]: <./bibliography.md> ""
 [4]: <./glossary.md> ""
-[5]: <./knowledge-base-architecture.md> ""
-
+[5]: <./knowledge-base-tech-stack.md> ""
+[6]: <./knowledge-base-principles.md> ""
+[7]: <./knowledge-base-markdown-rules.md> ""
