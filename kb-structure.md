@@ -10,9 +10,9 @@
     - [Правила оформления статей базы знаний][7]
 
 [1]: <./README.md> ""
-[2]: <./knowledge-base-structure.md> ""
+[2]: <./kb-structure.md> ""
 [3]: <./bibliography.md> ""
 [4]: <./glossary.md> ""
-[5]: <./knowledge-base-architecture/knowledge-base-tech-stack.md> ""
-[6]: <./knowledge-base-architecture/knowledge-base-principles.md> ""
-[7]: <./knowledge-base-architecture/knowledge-base-markdown-rules.md> ""
+[5]: <./kb-architecture/kb-tech-stack.md> ""
+[6]: <./kb-architecture/kb-principles.md> ""
+[7]: <./kb-architecture/kb-markdown-rules.md> ""

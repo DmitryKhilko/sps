@@ -19,7 +19,7 @@
 [*Переход вверх*][4]
 
 [1]: <./README.md> ""
-[2]: <./knowledge-base-structure.md> ""
+[2]: <./kb-structure.md> ""
 [3]: <#о-статье> ""
 [4]: <#содержание> ""
 [5]: <./bibliography.md#isoiecieee-12207> ""
