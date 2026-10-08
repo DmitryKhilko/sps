@@ -215,8 +215,7 @@ product_name, product_version вместо product: {name, version}.
 
 Пример блока с метаданными в начале статьи базы знаний (Markdown-файла):
 
-```
-yaml
+```yaml
 ---
 document_id: "a1b2c3d4-5678-90ef-ghij-klmnopqrstuv"
 title: "Настройка двухфакторной аутентификации"
