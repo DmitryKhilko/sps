@@ -1,3 +1,24 @@
+---
+document_id: "a1b2c3d4-5678-90ef-ghij-klmnopqrstuv"
+title: "Настройка двухфакторной аутентификации"
+topic: "Security"
+department: "IT"
+product: "Corporate Portal"
+audience: "end_user"
+language: "ru"
+status: "published"
+version: "2.1"
+sensitivity_level: "internal"
+owner: "security_team@company.com"
+last_updated: "2026-09-15"
+keywords: ["2FA", "MFA", "login", "security"]
+---
+
+# Настройка двухфакторной аутентификации"
+
+
+
+
 [О базе знаний][1] › [Структура базы знаний][2] › Правила создания метаданных в Markdown-файлах
 
 # Правила создания метаданных в Markdown-файлах
@@ -215,7 +236,6 @@ product_name, product_version вместо product: {name, version}.
 
 Пример блока с метаданными в начале статьи базы знаний (Markdown-файла):
 
-```yaml
 ---
 document_id: "a1b2c3d4-5678-90ef-ghij-klmnopqrstuv"
 title: "Настройка двухфакторной аутентификации"
@@ -231,7 +251,15 @@ owner: "security_team@company.com"
 last_updated: "2026-09-15"
 keywords: ["2FA", "MFA", "login", "security"]
 ---
-```
+
+Примечание: выделение блока метаданных сверху и снизу тремя дефисами (---) - это зафиксированный стандарт для метаданных 
+в экосистеме Markdown. Например, его "из коробки" понимают парсеры репозиториев GitHub, GitLab. GitHub и GitLab парсят 
+этот блок как служебный. В режиме чтения (Preview) блок с метаданными выносится в служебную таблицу сверху, не мешая 
+чтению основного текста. 
+
+
+
+
 
 [*Переход вверх*][3]
 
