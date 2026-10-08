@@ -242,7 +242,7 @@ keywords: ["2FA", "MFA", "login", "security"]
 этот блок как служебный. В режиме чтения (Preview) блок с метаданными выносится в служебную таблицу сверху, не мешая 
 чтению основного текста. 
 
-![Рис.1 Отображение блока метаданных в режиме чтения (Preview) на GitHub][14]  
+![Таблица с метаданными технического документа под названием "Настройка двухфакторной аутентификации". В строках таблицы указаны document_id: "a1b2c3d4-5678-90ef-ghij-klmnopqrstuv", title: "Настройка двухфакторной аутентификации", topic: "Security", department: "IT", product: "Corporate Portal", audience: "end_user", language: "ru", status: "published", version: "2.1", sensitivity_level: "internal", owner: "security_team@company.com", last_updated: "2026-09-15", keywords: ["2FA", "MFA", "login", "security"].][14]  
 *Рис.1 Отображение блока метаданных в режиме чтения (Preview) на GitHub*  
 
 [*Переход вверх*][3]
