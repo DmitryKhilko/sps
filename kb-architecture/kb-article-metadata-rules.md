@@ -233,6 +233,7 @@ product_name, product_version вместо product: {name, version}.
 
 Пример блока с метаданными в начале статьи базы знаний (Markdown-файла):
 
+```yaml
 ---
 document_id: "a1b2c3d4-5678-90ef-ghij-klmnopqrstuv"
 title: "Настройка двухфакторной аутентификации"
@@ -248,6 +249,7 @@ owner: "security_team@company.com"
 last_updated: "2026-09-15"
 keywords: ["2FA", "MFA", "login", "security"]
 ---
+```
 
 Примечание: выделение блока метаданных сверху и снизу тремя дефисами (---) - это зафиксированный стандарт для метаданных 
 в экосистеме Markdown. Например, его "из коробки" понимают парсеры репозиториев GitHub, GitLab. GitHub и GitLab парсят 
