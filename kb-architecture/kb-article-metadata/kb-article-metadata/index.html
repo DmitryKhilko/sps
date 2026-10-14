@@ -1,0 +1,1322 @@
+<!DOCTYPE html><html lang="ru" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="База знаний MkDocs">
+      
+      
+      
+      
+        <link rel="prev" href="../../kb-create-article/">
+      
+      
+        <link rel="next" href="../../kb-markdown-rules/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Правила создания метаданных - Моя База Знаний</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Nunito";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../../.." title="Моя База Знаний" class="md-header__button md-logo" aria-label="Моя База Знаний" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Моя База Знаний
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Правила создания метаданных
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo" aria-label="Включить темную тему" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Включить темную тему" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo" aria-label="Включить светлую тему" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Включить светлую тему" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Поделиться" aria-label="Поделиться" data-clipboard="" data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Вкладки" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  О базе знаний
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../glossary/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Глоссарий
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../kb-concept/" class="md-tabs__link">
+          
+  
+  
+  Архитектура базы знаний
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Моя База Знаний" class="md-nav__button md-logo" aria-label="Моя База Знаний" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    Моя База Знаний
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    О базе знаний
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Глоссарий
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--review"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Архитектура базы знаний
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Архитектура базы знаний
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kb-concept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Концепция системы управления базой знаний
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kb-create-article/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Порядок действий по созданию статьи базы знаний
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--review"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Правила создания метаданных
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--review"></span>
+  
+
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Правила создания метаданных
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--review"></span>
+  
+
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Обзор статьи
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Назначение метаданных
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Общие правила заполнения
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Общие правила заполнения">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Расположение и синтаксис блока
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Значения и справочники
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Порядок заполнения блока метаданных
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поля идентификации
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поля бизнес-контекста
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поля поискового обогащения
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поля жизненного цикла
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поля безопасности и доступа
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример блока метаданных
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Самопроверка блока метаданных
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Связанные статьи
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kb-markdown-rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Правила оформления статей базы знаний
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--review"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Обзор статьи
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Назначение метаданных
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Общие правила заполнения
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Общие правила заполнения">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Расположение и синтаксис блока
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Значения и справочники
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Порядок заполнения блока метаданных
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поля идентификации
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поля бизнес-контекста
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поля поискового обогащения
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поля жизненного цикла
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поля безопасности и доступа
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример блока метаданных
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Самопроверка блока метаданных
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Связанные статьи
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">Правила создания метаданных</h1>
+<h2 id="_2">Обзор статьи</h2>
+<p>В статье описано, что и как заполнять в блоке метаданных (YAML Frontmatter) статьи базы знаний при ручном создании
+статьи. Для каждого поля указано, что записать, в каком формате и зачем поле нужно. Приведены правила синтаксиса,
+порядок заполнения, пример блока и список для самопроверки.</p>
+<h2 id="_3">Назначение метаданных</h2>
+<p>Метаданные (frontmatter) - структурированный блок в начале статьи, который служит карточкой статьи для <a href="../glossary.md#rag-система">RAG-системы</a>
+с гибридным поиском. По полям блока система фильтрует статьи до поиска, добавляет контекст к фрагментам текста (чанкам)
+и отбирает актуальные данные.</p>
+<h2 id="_4">Общие правила заполнения</h2>
+<h3 id="_5">Расположение и синтаксис блока</h3>
+<p>Правила записи блока метаданных в файле:</p>
+<ul>
+<li><strong>Расположение</strong>: Блок находится в самом начале файла. Блок открывается и закрывается строкой <code>---</code>, перед первой 
+строкой нет пустых строк и других символов. Причина: Парсер находит блок только в начале файла.</li>
+<li><strong>Формат строки</strong>: Ключ записывается строчными латинскими буквами в виде <code>ключ: значение</code> с одним пробелом после 
+двоеточия. Причина: Единый формат читается одинаково всеми парсерами.</li>
+<li><strong>Длинные строковые значения</strong>: Значение, которое не помещается в одну строку (обычно <code>summary</code>), записывать как
+<code>summary: &gt;-</code> и далее текст с отступом 4 пробела без кавычек, без пустых строк и без пробелов в конце строк. Причина:
+Блок <code>&gt;-</code> объединяет строки в одну через пробел и не добавляет перенос в конце значения. Кавычки внутри блока стали бы
+частью значения.</li>
+<li><strong>Строки</strong>: Все строковые значения записывать в двойных прямых кавычках, кроме значения в блоке <code>&gt;-</code>. Двойные кавычки
+внутри значения заменять на одинарные. Причина: Двойная кавычка внутри значения обрывает строку и ломает блок.</li>
+<li><strong>Отступы</strong>: Использовать пробелы (4 пробела на каждый уровень), табуляцию не использовать. Причина: YAML не допускает
+табуляцию в отступах.</li>
+<li><strong>Списки</strong>: В YAML список записывается двумя способами: столбиком (каждый пункт с новой строки, начинается с <code>-</code>) или
+в квадратных скобках через запятую. Короткие списки писать в одну строку в квадратных скобках: <code>["а", "б"]</code>. Если список
+не помещается в 120 символов, переносить строку после запятой внутри скобок с отступом 4 пробела или писать столбиком.
+Вопросы (<code>questions</code>) писать столбиком: каждый пункт начинается с 4 пробелов и <code>-</code>. Причина: Столбик удобнее для
+длинных значений.</li>
+<li><strong>Пустые поля</strong>: Если поле не нужно, строку с ключом удалить целиком. Пустые значения (<code>ключ: ""</code>, <code>ключ: []</code>) не 
+оставлять. Причина: Пустое значение попадает в индекс и мешает фильтрации.</li>
+</ul>
+<h3 id="_6">Значения и справочники</h3>
+<p>Правила выбора значений полей:</p>
+<ul>
+<li><strong>Справочник значений</strong>: Для полей <code>status</code>, <code>doc_type</code>, <code>department</code>, <code>topic</code>, <code>product</code>, <code>audience</code>, <code>region</code>, 
+<code>sensitivity_level</code>, <code>language</code> и <code>tags</code> использовать только значения из <code>taxonomy.yml</code>. Значения записываются строчными 
+латинскими буквами через подчёркивание. Причина: Вариант "Опубликовано" вместо <code>published</code> ломает фильтрацию.</li>
+<li><strong>Нужного значения нет</strong>: Не выбирать неподходящее значение. Сообщить владельцу базы знаний, чтобы значение добавили в 
+<code>taxonomy.yml</code>. Причина: Справочник - единый источник допустимых значений.</li>
+<li><strong>Слова в свободных полях</strong>: В полях <code>keywords</code>, <code>aliases</code>, <code>summary</code> и <code>questions</code> писать обычные слова и устойчивые
+словосочетания с пробелами: "база знаний", а не "база_знаний". Подчёркивание допустимо только в значениях из справочника
+(<code>tags</code>, <code>topic</code> и других) и в названиях полей и файлов (<code>document_id</code>). Причина: Слово с подчёркиванием не совпадает со
+словами запроса: поиск по словам воспринимает его как одно редкое слово, а модель эмбеддингов делит его на нетипичные
+части. Это ухудшает и лексический, и семантический поиск.</li>
+<li><strong>Даты</strong>: Записывать в формате <code>"ГГГГ-ММ-ДД"</code> в двойных кавычках, например, <code>"2026-10-11"</code>. Причина: Без кавычек 
+парсер превращает значение в тип "дата", и часть инструментов отклоняет такой блок.</li>
+</ul>
+<h2 id="_7">Порядок заполнения блока метаданных</h2>
+<p>Блок заполняется по шагам создания статьи:</p>
+<ol>
+<li>Скопировать блок из раздела "Пример блока метаданных" в начало нового файла и удалить поля, которые не нужны.</li>
+<li>Создать новый <code>document_id</code> и записать заголовок <code>title</code>, равный H1 статьи.</li>
+<li>На шаге сбора информации определить <code>sensitivity_level</code> и <code>allowed_groups</code>: от них зависит, какие материалы можно 
+передавать ИИ.</li>
+<li>Заполнить <code>doc_type</code>, <code>language</code>, <code>department</code>, <code>owner</code> и поля бизнес-контекста, установить <code>status: "draft"</code>. </li>
+<li>После аудита заполнить <code>summary</code>, <code>tags</code>, <code>keywords</code>, <code>aliases</code>, <code>questions</code>, записать <code>last_updated</code>, установить 
+<code>status: "review"</code>.</li>
+<li>При публикации установить <code>status: "published"</code>, записать <code>date_published</code>, <code>review_date</code> и <code>doc_version</code>.</li>
+<li>Проверить блок по списку самопроверки.</li>
+</ol>
+<h2 id="_8">Поля идентификации</h2>
+<p>Поля группы идентификации однозначно определяют статью, её тип и язык:</p>
+<ul>
+<li><strong><code>document_id</code></strong> (обязательное): Уникальный идентификатор статьи в формате UUID версии 4 в нижнем регистре, например, 
+<code>"3f2a9c1e-7b4d-4e8a-9a12-5d6c0b8e1f47"</code>. Создаётся один раз командой <code>python3 -c "import uuid; print(uuid.uuid4())"</code>, 
+не меняется при обновлениях и не копируется из другой статьи. Причина: На идентификатор ссылаются другие статьи.</li>
+<li><strong><code>title</code></strong> (обязательное): Заголовок статьи, который посимвольно совпадает с H1. Причина: Заголовок добавляется к 
+каждому фрагменту, и по нему определяется тема фрагмента.</li>
+<li><strong><code>doc_type</code></strong> (обязательное): Тип содержимого, одно значение:<ul>
+<li><strong><code>how_to</code></strong>: Инструкция, как выполнить задачу.</li>
+<li><strong><code>concept</code></strong>: Объяснение понятий и принципов.</li>
+<li><strong><code>reference</code></strong>: Справочная информация, правила, перечни.</li>
+<li><strong><code>troubleshooting</code></strong>: Диагностика и устранение проблем.</li>
+<li><strong><code>policy</code></strong>: Регламент или политика.</li>
+<li><strong><code>faq</code></strong>: Вопросы и ответы.</li>
+</ul>
+</li>
+<li><strong><code>language</code></strong> (обязательное): Код языка статьи по ISO 639-1: <code>ru</code> - русский, <code>en</code> - английский. Один файл - один
+язык. Перевод оформляется отдельным файлом с собственным <code>document_id</code> и связывается через <code>related</code>. Причина: Модель не
+должна смешивать языки в одном ответе.</li>
+</ul>
+<h2 id="-">Поля бизнес-контекста</h2>
+<p>Поля бизнес-контекста сужают зону поиска до начала поиска по тексту:</p>
+<ul>
+<li><strong><code>topic</code></strong> (рекомендуется): Основная тема статьи, одно значение из справочника. Причина: Тема сужает поиск до начала
+поиска по тексту. Значения:<ul>
+<li><strong><code>security</code></strong>: Информационная безопасность.</li>
+<li><strong><code>onboarding</code></strong>: Адаптация и обучение новых сотрудников.</li>
+<li><strong><code>billing</code></strong>: Выставление счетов и оплата.</li>
+<li><strong><code>integrations</code></strong>: Интеграции между системами.</li>
+<li><strong><code>infrastructure</code></strong>: Серверы, сети, рабочие места и другая ИТ-инфраструктура.</li>
+<li><strong><code>compliance</code></strong>: Соблюдение законодательных и внутренних требований.</li>
+<li><strong><code>hr_processes</code></strong>: Кадровые процессы (приём, отпуска, увольнение).</li>
+<li><strong><code>product_usage</code></strong>: Использование продукта пользователем.</li>
+<li><strong><code>knowledge_management</code></strong>: Создание и ведение базы знаний.</li>
+<li><strong><code>standards</code></strong>: Стандарты и нормативные документы.</li>
+</ul>
+</li>
+<li><strong><code>department</code></strong> (обязательное): Подразделение, которое отвечает за содержание статьи (не подразделение читателей),
+одно значение. Причина: Поле позволяет фильтровать статьи по зоне ответственности. Значения:<ul>
+<li><strong><code>it</code></strong>: Информационные технологии и ИТ-инфраструктура.</li>
+<li><strong><code>finance</code></strong>: Финансы, бухгалтерия, бюджетирование.</li>
+<li><strong><code>sales</code></strong>: Продажи и работа с клиентами.</li>
+<li><strong><code>hr</code></strong>: Управление персоналом.</li>
+<li><strong><code>legal</code></strong>: Юридические вопросы и договоры.</li>
+<li><strong><code>support</code></strong>: Техническая поддержка пользователей и клиентов.</li>
+<li><strong><code>marketing</code></strong>: Маркетинг и коммуникации.</li>
+<li><strong><code>operations</code></strong>: Операционная деятельность и производственные процессы.</li>
+</ul>
+</li>
+<li><strong><code>product</code></strong> (обязательное для продуктовой базы знаний): Продукт или модуль, к которому относится статья, одно
+значение из справочника. Сейчас в справочнике одно значение: <code>corporate_portal</code> (корпоративный портал компании).
+Причина: Поле отделяет инструкции разных продуктов.</li>
+<li><strong><code>product_version</code></strong> (рекомендуется, если указан <code>product</code>): Версия продукта строкой, например, <code>"4.x"</code> или <code>"4.2"</code>. 
+Не путать с <code>doc_version</code>. Причина: Без версии модель смешивает инструкции разных релизов.</li>
+<li><strong><code>audience</code></strong> (рекомендуется): Основной читатель статьи, одно значение. Причина: Поле отсекает технические детали для
+обычных пользователей. Значения:<ul>
+<li><strong><code>end_user</code></strong>: Конечный пользователь продукта или сервиса.</li>
+<li><strong><code>admin</code></strong>: Администратор системы.</li>
+<li><strong><code>developer</code></strong>: Разработчик.</li>
+<li><strong><code>manager</code></strong>: Руководитель.</li>
+</ul>
+</li>
+<li><strong><code>region</code></strong> (по условию): Регион статьи, одно значение. Указывать только для статей с региональными особенностями
+(законы, налоги, стандарты). Причина: Лишнее значение сужает выдачу. Значения:<ul>
+<li><strong><code>global</code></strong>: Статья действует во всех регионах. Нужна, чтобы отличить общую статью от региональных версий той же
+  темы.</li>
+<li><strong><code>emea</code></strong>: Европа, Ближний Восток и Африка.</li>
+<li><strong><code>na</code></strong>: Северная Америка.</li>
+<li><strong><code>apac</code></strong>: Азиатско-Тихоокеанский регион.</li>
+<li><strong><code>latam</code></strong>: Латинская Америка.</li>
+<li><strong><code>cis</code></strong>: Страны СНГ.</li>
+</ul>
+</li>
+</ul>
+<h2 id="_9">Поля поискового обогащения</h2>
+<p>Поля поискового обогащения повышают полноту и точность гибридного поиска:</p>
+<ul>
+<li><strong><code>summary</code></strong> (обязательное): Краткое описание статьи в 1-2 предложениях, 20-300 символов. Содержит название предмета 
+статьи и то, что читатель в ней найдёт. Не начинать со слов "Эта статья". Обновлять при изменении содержания. Причина: 
+Описание добавляется к каждому фрагменту статьи, поэтому должно быть понятно без остального текста.</li>
+<li><strong><code>tags</code></strong> (рекомендуется): От 1 до 5 тегов из справочника <code>taxonomy.yml</code> (в отличие от ключевых слов, которые пишутся
+свободно). Причина: Теги из справочника ищутся точно, а свободные формулировки - нет. Теги по группам:<ul>
+<li><strong>Доступ и безопасность</strong>: <code>authentication</code> (аутентификация), <code>mfa</code> (многофакторная аутентификация), <code>sso</code> (единый
+  вход), <code>access_control</code> (управление доступом), <code>passwords</code> (пароли), <code>vpn</code> (удалённый доступ).</li>
+<li><strong>Системы и данные</strong>: <code>email</code> (электронная почта), <code>reporting</code> (отчётность), <code>api</code> (программные интерфейсы), <code>git</code>
+  (система контроля версий).</li>
+<li><strong>База знаний и ИИ</strong>: <code>knowledge_base</code> (база знаний), <code>rag</code> (RAG-системы), <code>markdown</code> (формат Markdown),
+  <code>formatting</code> (оформление текста), <code>ai_content</code> (материалы, созданные ИИ), <code>verification</code> (проверка и верификация).</li>
+<li><strong>Стандарты и качество</strong>: <code>iso</code> (стандарты ISO), <code>square</code> (серия SQuaRE), <code>software_quality</code> (качество
+  программного обеспечения), <code>software_lifecycle</code> (жизненный цикл программного обеспечения), <code>requirements</code>
+  (требования), <code>bibliography</code> (библиография и источники).</li>
+</ul>
+</li>
+<li><strong><code>keywords</code></strong> (рекомендуется): До 10 ключевых слов для поиска по словам. Использовать существительные, устойчивые 
+термины и словосочетания из текста, а не целые предложения. Причина: Лексический поиск сопоставляет слова запроса со 
+словами из этого поля.</li>
+<li><strong><code>aliases</code></strong> (рекомендуется): До 10 вариантов названия предмета статьи, которых нет в <code>title</code> и <code>keywords</code>: синонимы, 
+аббревиатуры, прежние названия, разговорные формулировки, английские термины. Причина: Пользователь ищет по тому слову, 
+которое знает, а не по слову из статьи.</li>
+<li><strong><code>questions</code></strong> (рекомендуется): От 2 до 5 вопросов, на которые отвечает статья, в формулировке пользователя. Каждый 
+вопрос полный, с названием предмета, до 200 символов, заканчивается знаком "?". Причина: Формулировка запроса совпадает 
+с формулировкой вопроса лучше, чем с текстом статьи.</li>
+<li><strong><code>related</code></strong> (рекомендуется): Список <code>document_id</code> связанных статей. Идентификаторы копировать из блока метаданных 
+этих статей. Связь односторонняя: обратную связь добавить в другой статье. Причина: Связанные статьи расширяют контекст 
+ответа.</li>
+</ul>
+<h2 id="_10">Поля жизненного цикла</h2>
+<p>Поля жизненного цикла управляют актуальностью статьи:</p>
+<ul>
+<li><strong><code>status</code></strong> (обязательное): Статус статьи. В поиск попадают только статьи со статусом <code>published</code>:<ul>
+<li><strong><code>draft</code></strong>: Черновик, шаги 1-3 создания статьи.</li>
+<li><strong><code>review</code></strong>: Статья на проверке, шаги 4-5.</li>
+<li><strong><code>published</code></strong>: Статья опубликована, шаг 6.</li>
+<li><strong><code>archived</code></strong>: Статья устарела и заменена другой, указывается <code>replaced_by</code>.</li>
+</ul>
+</li>
+<li><strong><code>doc_version</code></strong> (рекомендуется): Версия статьи строкой в формате <code>"1.0"</code>, <code>"2.1"</code>, <code>"2.1-beta"</code>. Первая публикация - 
+<code>"1.0"</code>. Первое число увеличивать при изменении смысла или порядка действий, второе - при дополнениях. Причина: Версия 
+показывает, насколько изменилась статья.</li>
+<li><strong><code>date_published</code></strong> (рекомендуется): Дата первой публикации. Записать при первом переводе в <code>published</code>, при 
+обновлениях не менять. Для черновика поле не указывать.</li>
+<li><strong><code>last_updated</code></strong> (обязательное): Дата последнего содержательного изменения. Менять при изменении фактов и шагов, не
+  менять при исправлении опечаток. Причина: Дата показывает актуальность данных.</li>
+<li><strong><code>review_date</code></strong> (рекомендуется): Дата следующей плановой проверки, не раньше <code>last_updated</code>. Для быстро меняющихся 
+данных - через 3 месяца, для обычных статей - через 6, для стабильных - через 12. Причина: Дата сообщает владельцу, что 
+статью пора проверить.</li>
+<li><strong><code>valid_until</code></strong> (по условию): Дата окончания действия статьи (акции, временные регламенты). После этой даты статья 
+исключается из выдачи. Причина: Срок действия защищает от устаревших ответов.</li>
+<li><strong><code>owner</code></strong> (обязательное): Владелец статьи - автор (ИФ) или команда, одно значение. Причина: Владелец отвечает за 
+актуальность статьи.</li>
+<li><strong><code>supersedes</code></strong> (по условию): <code>document_id</code> статьи, которую заменяет эта статья.</li>
+<li><strong><code>replaced_by</code></strong> (обязательное для <code>archived</code>): <code>document_id</code> статьи, которая заменила архивную. Причина: 
+Пользователь, нашедший архивную статью, получает ссылку на актуальную.</li>
+</ul>
+<h2 id="_11">Поля безопасности и доступа</h2>
+<p>Поля безопасности определяют, кто видит статью в результатах поиска:</p>
+<ul>
+<li><strong><code>sensitivity_level</code></strong> (обязательное): Уровень чувствительности, одно значение. Определять по самым чувствительным 
+сведениям статьи, при сомнении выбирать более высокий уровень:<ul>
+<li><strong><code>public</code></strong>: Информацию можно публиковать без ограничений.</li>
+<li><strong><code>internal</code></strong>: Информация только для сотрудников компании.</li>
+<li><strong><code>confidential</code></strong>: Информация для ограниченного круга сотрудников.</li>
+<li><strong><code>restricted</code></strong>: Информация для строго определённого круга лиц.</li>
+</ul>
+</li>
+<li><strong><code>allowed_groups</code></strong> (обязательное): Список групп каталога пользователей (LDAP/AD), которым разрешён доступ, минимум 
+одна группа. Названия групп копировать из каталога без изменений, например, <code>["HR_Managers", "IT_Security"]</code>. Причина: 
+Это единственное поле, по которому проверяются права доступа, а статья без групп не индексируется.</li>
+<li><strong>Общие группы</strong>: Для уровней <code>confidential</code> и <code>restricted</code> не использовать общие группы <code>all_employees</code>, <code>everyone</code>, 
+<code>users</code>. Причина: Общая группа открывает закрытую статью всем сотрудникам.</li>
+</ul>
+<h2 id="_12">Пример блока метаданных</h2>
+<p>Пример блока для опубликованной статьи, в котором есть обязательные, рекомендуемые и условные поля. Для нового файла
+блок копируется, значения заменяются, а ненужные поля удаляются:</p>
+<pre><code class="language-yaml">---
+document_id: "3f2a9c1e-7b4d-4e8a-9a12-5d6c0b8e1f47"
+title: "Настройка двухфакторной аутентификации"
+summary: &gt;-
+    Пошаговая инструкция по включению двухфакторной аутентификации (2FA) для входа в корпоративный
+    портал.
+doc_type: "how_to"
+topic: "security"
+department: "it"
+product: "corporate_portal"
+product_version: "4.x"
+audience: "end_user"
+language: "ru"
+status: "published"
+doc_version: "2.1"
+date_published: "2026-03-10"
+last_updated: "2026-09-15"
+review_date: "2027-03-15"
+owner: "Команда информационной безопасности"
+sensitivity_level: "internal"
+allowed_groups: ["all_employees"]
+tags: ["authentication", "mfa"]
+keywords: ["2FA", "MFA", "аутентификация", "вход", "код подтверждения"]
+aliases: ["двухфакторная авторизация", "двойная аутентификация", "2ФА", "вход по коду"]
+questions:
+    - "Как включить двухфакторную аутентификацию?"
+    - "Что делать, если не приходит код подтверждения?"
+related: ["b7d1e2a4-0c35-4f9b-8d6e-2a91c4f07e53"]
+---
+</code></pre>
+<h2 id="_13">Самопроверка блока метаданных</h2>
+<p>Перед публикацией проверить блок:</p>
+<ul>
+<li><strong>Расположение</strong>: Блок первый в файле, открыт и закрыт строками <code>---</code>, табуляций и пустых полей нет.</li>
+<li><strong>Обязательные поля</strong>: Заполнены <code>document_id</code>, <code>title</code>, <code>summary</code>, <code>doc_type</code>, <code>status</code>, <code>language</code>, <code>department</code>, 
+<code>owner</code>, <code>sensitivity_level</code>, <code>allowed_groups</code>, <code>last_updated</code>.</li>
+<li><strong>Идентификация</strong>: <code>title</code> посимвольно совпадает с H1, <code>document_id</code> создан заново.</li>
+<li><strong>Значения</strong>: Значения полей со справочником есть в <code>taxonomy.yml</code>, даты записаны как <code>"ГГГГ-ММ-ДД"</code>, <code>review_date</code> не 
+раньше <code>last_updated</code>.</li>
+<li><strong>Статус и доступ</strong>: Для <code>archived</code> указан <code>replaced_by</code>. Для <code>confidential</code> и <code>restricted</code> нет общих групп.</li>
+<li><strong>Лишнее</strong>: В блоке нет пустых полей и полей, которые не описаны в статье.</li>
+</ul>
+<p>После ручной проверки блок можно проверить скриптом <code>validate_frontmatter.py</code>.</p>
+<h2 id="_14">Связанные статьи</h2>
+<p>Статьи базы знаний, которые дополняют правила создания метаданных, иные материалы:</p>
+<ul>
+<li><a href="../taxonomy.yml">Допустимые значения тегов метаданных (taxonomy.yml)</a></li>
+<li><a href="./kb-create-article.md">Порядок действий по созданию статьи базы знаний</a> - шаги создания статьи, на которых заполняются метаданные.</li>
+<li><a href="./kb-markdown-rules.md">Правила оформления статей базы знаний</a> - требования к тексту статьи.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "toc.follow", "search.suggest", "content.code.copy", "navigation.top", "navigation.instant", "navigation.sticky", "search.highlight", "search.share", "content.tooltips", "navigation.breadcrumbs", "navigation.sections"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

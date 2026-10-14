@@ -1,0 +1,60 @@
+# Справочники допустимых значений для метаданных статей базы знаний.
+# Значения ниже - стартовый набор: приведите его в соответствие с вашей организацией.
+# Все значения - нижний регистр, латиница, подчеркивание вместо пробелов.
+
+status: [draft, review, published, archived]
+
+doc_type: [how_to, concept, reference, troubleshooting, policy, faq]
+
+audience: [end_user, admin, developer, manager]
+
+sensitivity_level: [public, internal, confidential, restricted]
+
+language: [ru, en]
+
+region: [global, emea, na, apac, latam, cis]
+
+department: [it, finance, sales, hr, legal, support, marketing, operations]
+
+topic:
+  - security
+  - onboarding
+  - billing
+  - integrations
+  - infrastructure
+  - compliance
+  - hr_processes
+  - product_usage
+  - knowledge_management
+  - standards
+
+product:
+  - corporate_portal
+
+tags:
+  - authentication
+  - mfa
+  - sso
+  - access_control
+  - passwords
+  - vpn
+  - email
+  - reporting
+  - api
+  - knowledge_base
+  - rag
+  - markdown
+  - git
+  - ai_content
+  - verification
+  - formatting
+  - iso
+  - square
+  - software_quality
+  - software_lifecycle
+  - requirements
+  - bibliography
+
+# Общие группы, которые нельзя использовать в документах
+# с уровнем confidential и restricted (проверка безопасности).
+broad_groups: [all_employees, everyone, users]
