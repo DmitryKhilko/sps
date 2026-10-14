@@ -41,11 +41,11 @@ plugins:                                  # Блок подключения пл
 markdown_extensions:
   - abbr
   - attr_list
-  - md_in_html                  # Обязательно для разметки Markdown внутри HTML-тегов
-  - pymdownx.grid               # Замена коммерческим карточкам (создает сетку)
-  - pymdownx.superfences        # Корректная обработка блоков кода
-  - pymdownx.admonition         # Настоящие блоки !!! info и !!! tip вместо callouts
-  - pymdownx.emoji:             # Включает отображение иконок :material-...:
+  - md_in_html
+  - pymdownx.grid
+  - pymdownx.superfences
+  - pymdownx.admonition
+  - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
