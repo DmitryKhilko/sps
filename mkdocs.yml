@@ -1,0 +1,16 @@
+site_name: Моя База Знаний
+site_description: База знаний на базе MkDocs Material
+
+theme:
+  name: material
+  language: ru         # Русский интерфейс и поиск
+  palette:
+    primary: indigo    # Основной цвет (можно менять на blue, teal и др.)
+    accent: indigo
+  features:
+    - navigation.tabs  # Верхняя навигация (если нужно)
+    - toc.follow       # Правое меню заголовков следит за скроллом
+    - search.suggest   # Умные подсказки в поиске
+
+plugins:
+  - search             # Встроенный мгновенный поиск по всем файлам
