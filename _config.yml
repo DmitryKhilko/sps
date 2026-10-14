@@ -1,9 +1,0 @@
-remote_theme: just-the-docs/just-the-docs
-title: Моя База Знаний
-description: Простой сайт из папок и файлов Markdown
-
-# Настройки поиска (тема добавит рабочий поиск по всем статьям!)
-search_enabled: true
-search:
-  tokenizer_separator: /[\s\-]+/
-  heading_level: 3
