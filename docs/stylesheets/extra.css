@@ -1,5 +1,13 @@
-/* Принудительно отображать кнопку Наверх при любом скролле вниз */
+/* По умолчанию (в самом верху страницы) кнопка "К началу" полностью скрыта */
 .md-top {
+  transform: translateY(100%) !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transition: transform 0.25s, opacity 0.25s !important;
+}
+
+/* Как только пользователь прокрутил страницу вниз, кнопка "К началу" жестко фиксируется на экране */
+.md-top[data-md-state="active"] {
   transform: translateY(0) !important;
   opacity: 1 !important;
   pointer-events: auto !important;
