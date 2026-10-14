@@ -1,17 +1,20 @@
-site_name: Моя База Знаний
-site_description: База знаний на базе MkDocs Material
+site_name: Моя База Знаний                # Название сайта в шапке и во вкладке браузера
+site_description: База знаний MkDocs      # Описание сайта для поисковых систем
 
-theme:
-  name: material
-  language: ru        
-  palette:
-    primary: indigo    
-    accent: indigo
-  features:
-    - navigation.tabs  
-    - toc.follow       
-    - search.suggest   
-    - navigation.top   
+theme:                                    # Блок настройки внешнего вида сайта
+  name: material                          # Использовать тему оформления Material
+  language: ru                            # Включить русский язык для поиска и интерфейса
+  palette:                                # Блок настройки цветовой палитры
+    primary: indigo                       # Основной цвет шапки сайта
+    accent: indigo                        # Цвет ссылок и активных элементов
+  features:                               # Блок активации встроенных функций темы
+    - navigation.tabs                     # Добавить вкладки навигации вверху страницы
+    - toc.follow                          # Правое меню статьи крутится при скролле
+    - search.suggest                      # Включить подсказки при вводе в поиске
+    - navigation.top                      # Активировать кнопку возврата наверх
 
-plugins:
-  - search             
+plugins:                                  # Блок подключения плагинов
+  - search                                # Включить встроенный поиск по статьям
+
+extra_css:                                # Блок подключения личных стилей оформления
+  - stylesheets/extra.css                 # Путь к файлу стилей для фиксации кнопки
