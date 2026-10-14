@@ -28,5 +28,6 @@ jobs:
             mkdocs-material-
       # Шаг с установкой ОБОИХ необходимых пакетов
       - run: pip install mkdocs-material pymdown-extensions
+      - run: pip install mkdocs-material pymdown-extensions mkdocs-glightbox
       # Запуск деплоя с отключением лишнего варнинга в логах
       - run: mkdocs gh-deploy --force    
