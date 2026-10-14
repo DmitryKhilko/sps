@@ -5,12 +5,13 @@ theme:
   name: material
   language: ru         # Русский интерфейс и поиск
   palette:
-    primary: indigo    # Основной цвет (можно менять на blue, teal и др.)
+    primary: indigo    
     accent: indigo
   features:
-    - navigation.tabs  # Верхняя навигация (если нужно)
+    - navigation.tabs  # Верхняя навигация
     - toc.follow       # Правое меню заголовков следит за скроллом
     - search.suggest   # Умные подсказки в поиске
+    - navigation.top   # Кнопка быстрой прокрутки страницы наверх ⬅️ ДОБАВИТЬ ЭТО
 
 plugins:
   - search             # Встроенный мгновенный поиск по всем файлам
