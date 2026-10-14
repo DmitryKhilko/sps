@@ -6,27 +6,31 @@
 
 ### 🚀 Быстрый старт
 
-<div class="grid cards" markdown>
+<div class="grid" markdown>
 
--   :material-book-open-variant:{ .lg .middle } __[Глоссарий](glossary.md)__
-    
-    ---
-    Словарь терминов, сокращений и СУБД, используемых в нашей системе.
+::: varlink
+:material-book-open-variant:{ .lg .middle } __[Глоссарий](glossary.md)__
+***
+Словарь терминов, сокращений и СУБД, используемых в нашей системе.
+:::
 
--   :material-format-paint:{ .lg .middle } __[Правила оформления](kb-architecture/kb-markdown-rules.md)__
-    
-    ---
-    Как правильно использовать Markdown, списки, таблицы и форматировать код.
+::: varlink
+:material-format-paint:{ .lg .middle } __[Правила оформления](kb-architecture/kb-markdown-rules.md)__
+***
+Как правильно использовать Markdown, списки, таблицы и форматировать код.
+:::
 
--   :material-plus-box:{ .lg .middle } __[Создать статью](kb-architecture/kb-create-article.md)__
-    
-    ---
-    Пошаговый чек-лист: от создания файла до публикации через GitHub Actions.
+::: varlink
+:material-plus-box:{ .lg .middle } __[Создать статью](kb-architecture/kb-create-article.md)__
+***
+Пошаговый чек-лист: от создания файла до публикации через GitHub Actions.
+:::
 
--   :material-database-cog:{ .lg .middle } __[Концепция системы](kb-architecture/kb-concept.md)__
-    
-    ---
-    Архитектура управления базой знаний и ключевые принципы её развития.
+::: varlink
+:material-database-cog:{ .lg .middle } __[Концепция системы](kb-architecture/kb-concept.md)__
+***
+Архитектура управления базой знаний и ключевые принципы её развития.
+:::
 
 </div>
 
