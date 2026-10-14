@@ -6,8 +6,8 @@ theme:                                    # Блок настройки внеш
   language: ru                            # Включить русский язык для поиска и интерфейса
 
   font:
-    text: Inter
-    code: JetBrains Mono
+    text: Nunito
+    code: Fira Code
 
   palette:                                # Блок настройки цветовой палитры и тем
     # Настройка светлой (дневной) темы
