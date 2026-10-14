@@ -31,3 +31,13 @@ theme:                                    # Блок настройки внеш
 
 plugins:                                  # Блок подключения плагинов
   - search                                # Включить встроенный поиск по статьям
+
+nav:
+  - "О базе знаний": index.md
+  - "Глоссарий": glossary.md
+  - "Архитектура базы знаний":
+      - "Концепция системы управления базой знаний": kb-architecture/kb-concept.md
+      - "Порядок действий по созданию статьи базы знаний": kb-architecture/kb-create-article.md
+      - "Правила создания метаданных в Markdown-файлах": kb-architecture/kb-article-metadata/kb-article-metadata.md
+      - "Правила оформления статей базы знаний": kb-architecture/kb-markdown-rules.md
+
