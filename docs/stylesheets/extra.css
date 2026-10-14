@@ -1,6 +1,6 @@
-/* Показывать кнопку Наверх всегда, когда страница прокручена вниз */
-[data-md-toggle="top"] ~ .md-top {
-  transform: translateY(0);
-  opacity: 1;
-  pointer-events: auto;
+/* Принудительно отображать кнопку Наверх при любом скролле вниз */
+.md-top {
+  transform: translateY(0) !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
 }
