@@ -3,15 +3,15 @@ site_description: База знаний на базе MkDocs Material
 
 theme:
   name: material
-  language: ru         # Русский интерфейс и поиск
+  language: ru        
   palette:
     primary: indigo    
     accent: indigo
   features:
-    - navigation.tabs  # Верхняя навигация
-    - toc.follow       # Правое меню заголовков следит за скроллом
-    - search.suggest   # Умные подсказки в поиске
-    - navigation.top   # Кнопка быстрой прокрутки страницы наверх ⬅️ ДОБАВИТЬ ЭТО
+    - navigation.tabs  
+    - toc.follow       
+    - search.suggest   
+    - navigation.top   
 
 plugins:
-  - search             # Встроенный мгновенный поиск по всем файлам
+  - search             
