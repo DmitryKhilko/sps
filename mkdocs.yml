@@ -39,8 +39,15 @@ plugins:                                  # Блок подключения пл
   - search                                # Включить встроенный поиск по статьям
 
 markdown_extensions:
-  - abbr       # Позволяет создавать аббревиатуры (глоссарий)
-  - attr_list  # Позволяет настраивать всплывающие подсказки вручную
+  - abbr
+  - attr_list
+  - pymdownx.blocks.cards      # Включает сетку карточе
+  - pymdownx.superfences      # Необходим для корректной вложенности блоков
+  - pymdownx.emoji:           # Включает отображение иконок :material-...:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - callouts                  # Активирует красивые блоки !!! info и !!! tip
+
 
 nav:
   - "О базе знаний": index.md
