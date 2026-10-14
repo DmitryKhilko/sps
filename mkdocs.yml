@@ -38,18 +38,6 @@ theme:                                    # Блок настройки внеш
 plugins:                                  # Блок подключения плагинов
   - search                                # Включить встроенный поиск по статьям
 
-markdown_extensions:
-  - abbr
-  - attr_list
-  - md_in_html
-  - pymdownx.superfences
-  - pymdownx.admonition         # Включает блоки !!! info и !!! tip
-  - pymdownx.emoji:             # Включает иконки :material-...:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-
-
 nav:
   - "О базе знаний": index.md
   - "Глоссарий": glossary.md
@@ -58,4 +46,3 @@ nav:
       - "Порядок действий по созданию статьи базы знаний": kb-architecture/kb-create-article.md
       - "Правила создания метаданных": kb-architecture/kb-article-metadata/kb-article-metadata.md
       - "Правила оформления статей базы знаний": kb-architecture/kb-markdown-rules.md
-
