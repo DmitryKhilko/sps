@@ -1,5 +1,5 @@
-title = "Моя База Знаний"
-description = "База знаний MkDocs"
+site_name = "Моя База Знаний"
+site_description = "База знаний MkDocs"
 
 [theme]
 name = "material"
