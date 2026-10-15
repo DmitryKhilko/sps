@@ -1,9 +1,23 @@
 [project]
 site_name = "Моя База Знаний"
 site_description = "База знаний MkDocs"
-# Крайне рекомендуется указать site_url, так как от него зависят некоторые функции навигации
 site_url = "https://your-domain.com" 
 
+# --- НАВИГАЦИЯ (Перенесена наверх, строго в секцию [project]) ---
+nav = [
+    { "О базе знаний" = "index.md" },
+    { "Глоссарий" = "glossary.md" },
+    { "Архитектура базы знаний" = [
+        { "Концепция системы управления базой знаний" = "kb-architecture/kb-concept.md" },
+        { "Порядок действий по созданию статьи базы знаний" = "kb-architecture/kb-create-article.md" },
+        { "Правила оформления статей базы знаний" = "kb-architecture/kb-markdown-rules.md" },
+        { "Правила создания метаданных" = [
+            { "Инструкция по метаданным" = "kb-architecture/kb-article-metadata/kb-article-metadata.md" }
+        ]}
+    ]}
+]
+
+# --- НАСТРОЙКИ ТЕМЫ ---
 [project.theme]
 name = "material"
 language = "ru"
@@ -30,10 +44,10 @@ accent = "indigo"
 icon = "material/weather-sunny"
 name = "Включить светлую тему"
 
-# Настройки возможностей темы (features) разделяются через структуру таблиц:
+# --- ВОЗМОЖНОСТИ ТЕМЫ (FEATURES) ---
 [project.theme.features.navigation]
 tabs = true
-top = true          # Та самая кнопка перемещения наверх
+top = true          # Кнопка перемещения наверх (появится при скролле вверх)
 instant = true
 sticky = true
 breadcrumbs = true
@@ -45,20 +59,8 @@ follow = true
 [project.theme.features.search]
 suggest = true
 highlight = true
-search_share = true
+share = true
 
 [project.theme.features.content]
-code_copy = true
+"code.copy" = true
 tooltips = true
-
-# Структура навигации в Zensical пишется внутри секции
-nav = [
-    { "О базе знаний" = "index.md" },
-    { "Глоссарий" = "glossary.md" },
-    { "Архитектура базы знаний" = [
-        { "Концепция системы управления базу знаний" = "kb-architecture/kb-concept.md" },
-        { "Порядок действий по созданию статьи базы знаний" = "kb-architecture/kb-create-article.md" },
-        { "Правила создания метаданных" = "kb-architecture/kb-article-metadata/kb-article-metadata.md" },
-        { "Правила оформления статей базы знаний" = "kb-architecture/kb-markdown-rules.md" }
-    ]}
-]
