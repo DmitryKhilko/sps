@@ -38,7 +38,7 @@ jobs:
       - run: pip install zensical
       
       # Сборка сайта (Zensical сложит готовый HTML в папку site/)
-      - run: zensical build --clean --lax
+      - run: zensical build --clean
       
       # Шаг А: Настройка инфраструктуры Pages внутри контейнера
       - uses: actions/configure-pages@v5
