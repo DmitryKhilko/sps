@@ -68,6 +68,7 @@ code = "Fira Code"
 draft = "Черновик"
 review = "На проверке"
 published = "Опубликовано"
+archived = "Архив"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
