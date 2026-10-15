@@ -49,3 +49,4 @@ navigation_sections = true
 "Концепция системы управления базу знаний" = "kb-architecture/kb-concept.md"
 "Порядок действий по созданию статьи базы знаний" = "kb-architecture/kb-create-article.md"
 "Правила создания метаданных" = "kb-architecture/kb-article-metadata/kb-article-metadata.md"
+"Правила оформления статей базы знаний" = "kb-architecture/kb-markdown-rules.md"
