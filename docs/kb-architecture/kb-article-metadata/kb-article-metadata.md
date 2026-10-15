@@ -16,11 +16,7 @@ owner: "Дмитрий Хилько"
 sensitivity_level: "internal"
 allowed_groups: ["all_employees"]
 tags: ["knowledge_base", "markdown", "rag"]
-keywords: [
-    "метаданные", "YAML Frontmatter", "блок метаданных",
-    "поля метаданных", "обязательные поля", "document_id",
-    "summary", "справочник значений", "taxonomy.yml", "frontmatter"
-]
+keywords: ["метаданные", "YAML Frontmatter", "блок метаданных", "поля метаданных", "обязательные поля", "document_id", "summary", "справочник значений", "taxonomy.yml", "frontmatter"]
 aliases: ["frontmatter", "шапка статьи", "заголовок файла", "карточка статьи", "YAML-блок"]
 questions:
     - "Какие поля метаданных заполняет автор статьи вручную?"
