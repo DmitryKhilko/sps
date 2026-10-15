@@ -99,9 +99,4 @@ custom_checkbox = true
 
 # Настройки предварительного просмотра страниц
 [[project.markdown_extensions.zensical.extensions.preview.configurations]]
-targets.include = [
-    "kb-architecture/kb-concept.md",
-    "kb-architecture/kb-create-article.md",
-    "kb-architecture/kb-markdown-rules.md",
-    "kb-architecture/kb-article-metadata/kb-article-metadata.md",
-]
+targets.include = [""**/*.md]
