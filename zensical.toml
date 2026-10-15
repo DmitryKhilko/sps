@@ -41,11 +41,6 @@ content_tooltips = true
 navigation_breadcrumbs = true
 navigation_sections = true
 
-# ---- ОПТИМИЗАЦИЯ ДЛЯ RAG И КИРИЛЛИЧЕСКИХ ССЫЛОК ----
-[validation]
-anchors = "warn"
-links = "warn"
-
 [nav]
 "О базе знаний" = "index.md"
 "Глоссарий" = "glossary.md"
