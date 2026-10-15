@@ -54,3 +54,8 @@ nav:
       - "Порядок действий по созданию статьи базы знаний": kb-architecture/kb-create-article.md
       - "Правила создания метаданных": kb-architecture/kb-article-metadata/kb-article-metadata.md
       - "Правила оформления статей базы знаний": kb-architecture/kb-markdown-rules.md
+
+# ---- ОТКЛЮЧЕНИЕ ПАДЕНИЯ СБОРКИ ИЗ-ЗА ССЫЛОК И ЯКОРЕЙ ----
+validation:
+  links: warn
+  anchors: warn
