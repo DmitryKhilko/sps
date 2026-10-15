@@ -3,7 +3,7 @@ site_name = "Моя База Знаний"
 site_description = "База знаний MkDocs"
 site_url = "https://your-domain.com" 
 
-# --- ВОЗМОЖНОСТИ САЙТА (В Zensical пишутся строго здесь!) ---
+# --- ВОЗМОЖНОСТИ САЙТА ---
 features = [
     "navigation.tabs",
     "navigation.top",         # Кнопка перемещения наверх
@@ -56,6 +56,6 @@ media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 primary = "black"
 accent = "indigo"
-[project.theme.palette.toggle"
+[project.theme.palette.toggle]   # Синтаксис полностью исправлен здесь
 icon = "material/weather-sunny"
 name = "Включить светлую тему"
