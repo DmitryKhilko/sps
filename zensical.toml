@@ -43,13 +43,20 @@ icon = "material/weather-sunny"
 name = "Включить светлую тему"
 
 # --- ВОЗМОЖНОСТИ ТЕМЫ (FEATURES) ---
-[project.theme.features.navigation]
-tabs = true
-top = true          # Кнопка перемещения наверх (появится при скролле вверх)
-instant = true
-sticky = true
-breadcrumbs = true
-sections = true
+features = [
+    "navigation.tabs",
+    "navigation.top",         # Кнопка «Наверх»
+    "navigation.instant",
+    "navigation.sticky",
+    "navigation.breadcrumbs",
+    "navigation.sections",
+    "toc.follow",
+    "search.suggest",
+    "search.highlight",
+    "search.share",
+    "content.code.copy",     # Кнопка копирования кода
+    "content.tooltips"
+]
 
 [project.theme.features.toc]
 follow = true
