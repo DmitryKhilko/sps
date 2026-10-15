@@ -54,9 +54,9 @@ tooltips = true
 # Структура навигации в Zensical пишется внутри секции [project.nav]
 [project.nav]
 "О базе знаний" = "index.md"
-"Глоссарий" = "glossary.md"
+"Глоссарий_1" = "glossary.md"
 
-[project.nav."Архитектура базы знаний"]
+[project.nav."Knowledge base architecture"]
 "Концепция системы управления базу знаний" = "kb-architecture/kb-concept.md"
 "Порядок действий по созданию статьи базы знаний" = "kb-architecture/kb-create-article.md"
 "Правила создания метаданных" = "kb-architecture/kb-article-metadata/kb-article-metadata.md"
