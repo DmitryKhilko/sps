@@ -106,3 +106,8 @@ custom_checkbox = true
 # Настройки предварительного просмотра страниц
 [[project.markdown_extensions.zensical.extensions.preview.configurations]]
 targets.include = ["**/*.md"]
+
+# Отображение иконок эмодзи
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
