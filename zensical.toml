@@ -1,6 +1,6 @@
 [project]
-site_name = "Моя База Знаний"
-site_description = "База знаний по производству программных продуктов"
+site_name = "База знаний по системе производства программных продуктов"
+site_description = "База знаний по вопросам производства программных продуктов"
 # ВАЖНО: укажите реальный адрес сайта, иначе instant-навигация и поиск работают некорректно
 # Для GitHub Pages: https://dmitrykhilko.github.io/sps/
 site_url = "https://dmitrykhilko.github.io/sps/"
