@@ -64,6 +64,11 @@ features = [
 text = "Nunito"
 code = "Fira Code"
 
+[project.extra.status]
+draft = "Черновик"
+review = "На проверке"
+published = "Опубликовано"
+
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
