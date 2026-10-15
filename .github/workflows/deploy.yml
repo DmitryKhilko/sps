@@ -6,19 +6,27 @@ on:
 
 permissions:
   contents: write
+  pages: write      # Обязательное разрешение для деплоя Pages
+  id-token: write   # Обязательное разрешение для авторизации
+
+# Запрещаем одновременные сборки (если вы сделаете 2 коммита подряд, старый деплой прервется)
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        run: |
-          git config --global user.name github-actions[bot]
-          git config --global user.email github-actions[bot]@://github.com
+      
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
+          
       - run: echo "cache_id=$(date --utc +'%V')" >> $GITHUB_ENV
       - uses: actions/cache@v4
         with:
@@ -27,8 +35,19 @@ jobs:
           restore-keys: |
             zensical-toml-
             
-      # Устанавливаем сам компилятор Zensical
       - run: pip install zensical
       
-      # Запускаем сборку. Движок автоматически найдет файл zensical.toml
-      - run: zensical build --clean
+      # Сборка сайта (Zensical сложит готовый HTML в папку site/)
+      - run: zensical build --clean --lax
+      
+      # Шаг А: Настройка инфраструктуры Pages внутри контейнера
+      - uses: actions/configure-pages@v5
+      
+      # Шаг Б: Загрузка сгенерированной папки site/ как артефакта сборки
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'site'
+          
+      # Шаг В: Финальный запуск встроенного деплоя на сервера GitHub
+      - id: deployment
+        uses: actions/deploy-pages@v4
