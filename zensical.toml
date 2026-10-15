@@ -41,7 +41,7 @@ features = [
     "navigation.tabs",
     "navigation.tabs.sticky",
     "navigation.sections",
-    "navigation.path",          # «хлебные крошки» (вместо неверного navigation.breadcrumbs)
+    #"navigation.path",          # «хлебные крошки» (вместо неверного navigation.breadcrumbs)
     "navigation.indexes",
     "navigation.top",           # кнопка «Наверх»
     "navigation.footer",        # ссылки «Предыдущая / Следующая» внизу страницы
