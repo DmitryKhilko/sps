@@ -1,0 +1,57 @@
+title = "Моя База Знаний"
+description = "База знаний MkDocs"
+
+[theme]
+name = "material"
+language = "ru"
+
+[theme.font]
+text = "Nunito"
+code = "Fira Code"
+
+[[theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "indigo"
+accent = "indigo"
+[theme.palette.toggle]
+icon = "material/weather-night"
+name = "Включить темную тему"
+
+[[theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "black"
+accent = "indigo"
+[theme.palette.toggle]
+icon = "material/weather-sunny"
+name = "Включить светлую тему"
+
+[theme.features]
+navigation_tabs = true
+toc_follow = true
+search_suggest = true
+content_code_copy = true
+navigation_top = true
+navigation_instant = true
+navigation_sticky = true
+search_highlight = true
+search_share = true
+content_tooltips = true
+navigation_breadcrumbs = true
+navigation_sections = true
+
+# ---- ОПТИМИЗАЦИЯ ДЛЯ RAG И КИРИЛЛИЧЕСКИХ ССЫЛОК ----
+[validation]
+anchors = "warn"
+links = "warn"
+
+[nav]
+"О базе знаний" = "index.md"
+"Глоссарий" = "glossary.md"
+
+[nav."Архитектура базы знаний"]
+"Концепция системы управления базу знаний" = "kb-architecture/kb-concept.md"
+"Порядок действий по созданию статьи базы знаний" = "kb-architecture/kb-create-article.md"
+"Правила создания метаданных" = "kb-architecture/kb-article-metadata/kb-article-metadata.md"
+"Правила оформления статей базы знаний" = "kb-architecture/kb-markdown-rules.md"

@@ -22,11 +22,13 @@ jobs:
       - run: echo "cache_id=$(date --utc +'%V')" >> $GITHUB_ENV
       - uses: actions/cache@v4
         with:
-          key: zensical-${{ env.cache_id }}
+          key: zensical-toml-${{ env.cache_id }}
           path: .cache
           restore-keys: |
-            zensical-
-      # Устанавливаем только zensical (расширения и lightbox уже внутри ядра)
+            zensical-toml-
+            
+      # Устанавливаем сам компилятор Zensical
       - run: pip install zensical
-      # Запускаем сборку и деплой через новый движок
+      
+      # Запускаем сборку. Движок автоматически найдет файл zensical.toml
       - run: zensical build --clean
