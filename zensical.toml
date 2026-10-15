@@ -1,51 +1,62 @@
+[project]
 site_name = "Моя База Знаний"
 site_description = "База знаний MkDocs"
+# Крайне рекомендуется указать site_url, так как от него зависят некоторые функции навигации
+site_url = "https://your-domain.com" 
 
-[theme]
+[project.theme]
 name = "material"
 language = "ru"
 
-[theme.font]
+[project.theme.font]
 text = "Nunito"
 code = "Fira Code"
 
-[[theme.palette]]
+[[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
 primary = "indigo"
 accent = "indigo"
-[theme.palette.toggle]
+[project.theme.palette.toggle]
 icon = "material/weather-night"
 name = "Включить темную тему"
 
-[[theme.palette]]
+[[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 primary = "black"
 accent = "indigo"
-[theme.palette.toggle]
+[project.theme.palette.toggle]
 icon = "material/weather-sunny"
 name = "Включить светлую тему"
 
-[theme.features]
-navigation_tabs = true
-toc_follow = true
-search_suggest = true
-content_code_copy = true
-navigation_top = true
-navigation_instant = true
-navigation_sticky = true
-search_highlight = true
-search_share = true
-content_tooltips = true
-navigation_breadcrumbs = true
-navigation_sections = true
+# Настройки возможностей темы (features) разделяются через структуру таблиц:
+[project.theme.features.navigation]
+tabs = true
+top = true          # Та самая кнопка перемещения наверх
+instant = true
+sticky = true
+breadcrumbs = true
+sections = true
 
-[nav]
+[project.theme.features.toc]
+follow = true
+
+[project.theme.features.search]
+suggest = true
+highlight = true
+search_share = true
+
+[project.theme.features.content]
+code_copy = true
+tooltips = true
+
+# Структура навигации в Zensical пишется внутри секции [project.nav]
+[project.nav]
 "О базе знаний" = "index.md"
 "Глоссарий" = "glossary.md"
 
-[nav."Архитектура базы знаний"]
+[project.nav."Архитектура базы знаний"]
 "Концепция системы управления базу знаний" = "kb-architecture/kb-concept.md"
 "Порядок действий по созданию статьи базы знаний" = "kb-architecture/kb-create-article.md"
 "Правила создания метаданных" = "kb-architecture/kb-article-metadata/kb-article-metadata.md"
