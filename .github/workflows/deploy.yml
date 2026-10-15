@@ -22,11 +22,11 @@ jobs:
       - run: echo "cache_id=$(date --utc +'%V')" >> $GITHUB_ENV
       - uses: actions/cache@v4
         with:
-          key: mkdocs-material-${{ env.cache_id }}
+          key: zensical-${{ env.cache_id }}
           path: .cache
           restore-keys: |
-            mkdocs-material-
-      # Шаг с установкой ОБОИХ необходимых пакетов
-      - run: pip install mkdocs-material pymdown-extensions mkdocs-glightbox
-      # Запуск деплоя с отключением лишнего варнинга в логах
-      - run: mkdocs gh-deploy --force    
+            zensical-
+      # Устанавливаем только zensical (расширения и lightbox уже внутри ядра)
+      - run: pip install zensical
+      # Запускаем сборку и деплой через новый движок
+      - run: zensical build --clean
