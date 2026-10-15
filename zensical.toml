@@ -99,4 +99,4 @@ custom_checkbox = true
 
 # Настройки предварительного просмотра страниц
 [[project.markdown_extensions.zensical.extensions.preview.configurations]]
-targets.include = [""**/*.md]
+targets.include = ["**/*.md"]
