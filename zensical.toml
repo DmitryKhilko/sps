@@ -1,23 +1,22 @@
 [project]
 site_name = "Моя База Знаний"
-site_description = "База знаний MkDocs"
-site_url = "https://your-domain.com" 
+site_description = "База знаний по производству программных продуктов"
+# ВАЖНО: укажите реальный адрес сайта, иначе instant-навигация и поиск работают некорректно
+# Для GitHub Pages: https://dmitrykhilko.github.io/sps/
+site_url = "https://dmitrykhilko.github.io/sps/"
+site_author = "Дмитрий Хилько"
+# Кнопка «Редактировать страницу» / ссылка на репозиторий (по желанию)
+repo_url = "https://github.com/dmitrykhilko/sps"
+repo_name = "GitHub"
+edit_uri = "edit/main/docs/"
 
-# --- ВОЗМОЖНОСТИ САЙТА ---
-"features.navigation.tabs" = true
-"features.navigation.top" = true          # Принудительное включение кнопки «Наверх»
-"features.navigation.instant" = true
-"features.navigation.sticky" = true
-"features.navigation.breadcrumbs" = true
-"features.navigation.sections" = true
-"features.toc.follow" = true
-"features.search.suggest" = true
-"features.search.highlight" = true
-"features.search.share" = true
-"features.content.code.copy" = true      # Резервное принудительное включение копирования
-"features.content.tooltips" = true
+# Не публиковать служебные файлы (скрипты, схемы, таксономию)
+# exclude_docs = """
+#*.py
+#*.json
+#*.yml
+#"""
 
-# --- НАВИГАЦИЯ ---
 nav = [
     { "О базе знаний" = "index.md" },
     { "Глоссарий" = "glossary.md" },
@@ -29,10 +28,37 @@ nav = [
     ]}
 ]
 
-# --- НАСТРОЙКИ ВНЕШНЕГО ВИДА ---
+# --- ТЕМА ---
 [project.theme]
-name = "material"
 language = "ru"
+# Все возможности включаются ОДНИМ списком внутри [project.theme]
+features = [
+    # навигация
+    "navigation.instant",
+    "navigation.instant.prefetch",
+    "navigation.instant.progress",
+    "navigation.tracking",
+    "navigation.tabs",
+    "navigation.tabs.sticky",
+    "navigation.sections",
+    "navigation.path",          # «хлебные крошки» (вместо неверного navigation.breadcrumbs)
+    "navigation.indexes",
+    "navigation.top",           # кнопка «Наверх»
+    "navigation.footer",        # ссылки «Предыдущая / Следующая» внизу страницы
+    "toc.follow",
+    # поиск
+    "search.suggest",
+    "search.highlight",
+    "search.share",
+    # контент
+    "content.code.copy",        # кнопка копирования кода
+    "content.code.annotate",
+    "content.tooltips",
+    "content.action.edit",      # кнопка «Править страницу» (нужны repo_url и edit_uri)
+    "content.footnote.tooltips",
+    # прочее
+    "header.autohide",
+]
 
 [project.theme.font]
 text = "Nunito"
@@ -43,15 +69,30 @@ media = "(prefers-color-scheme: light)"
 scheme = "default"
 primary = "indigo"
 accent = "indigo"
-[project.theme.palette.toggle]
-icon = "material/weather-night"
-name = "Включить темную тему"
+toggle.icon = "lucide/moon"
+toggle.name = "Включить тёмную тему"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 primary = "black"
 accent = "indigo"
-[project.theme.palette.toggle]   # Синтаксис полностью исправлен здесь
-icon = "material/weather-sunny"
-name = "Включить светлую тему"
+toggle.icon = "lucide/sun"
+toggle.name = "Включить светлую тему"
+
+# --- Расширения Markdown (подсветка кода, вкладки, примечания, чек-листы) ---
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.abbr]
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.superfences]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
