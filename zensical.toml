@@ -96,3 +96,12 @@ pygments_lang_class = true
 alternate_style = true
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
+
+# Настройки предварительного просмотра страниц
+[[project.markdown_extensions.zensical.extensions.preview.configurations]]
+targets.include = [
+    "kb-architecture/kb-concept.md",
+    "kb-architecture/kb-create-article.md",
+    "kb-architecture/kb-markdown-rules.md",
+    "kb-architecture/kb-article-metadata/kb-article-metadata.md",
+]
