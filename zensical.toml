@@ -51,13 +51,14 @@ search_share = true
 code_copy = true
 tooltips = true
 
-# Структура навигации в Zensical пишется внутри секции [project.nav]
-[project.nav]
-"О базе знаний" = "index.md"
-"Глоссарий_1" = "glossary.md"
-
-[project.nav."Knowledge base architecture"]
-"Концепция системы управления базу знаний" = "kb-architecture/kb-concept.md"
-"Порядок действий по созданию статьи базы знаний" = "kb-architecture/kb-create-article.md"
-"Правила создания метаданных" = "kb-architecture/kb-article-metadata/kb-article-metadata.md"
-"Правила оформления статей базы знаний" = "kb-architecture/kb-markdown-rules.md"
+# Структура навигации в Zensical пишется внутри секции
+nav = [
+    { "О базе знаний" = "index.md" },
+    { "Глоссарий" = "glossary.md" },
+    { "Архитектура базы знаний" = [
+        { "Концепция системы управления базу знаний" = "kb-architecture/kb-concept.md" },
+        { "Порядок действий по созданию статьи базы знаний" = "kb-architecture/kb-create-article.md" },
+        { "Правила создания метаданных" = "kb-architecture/kb-article-metadata/kb-article-metadata.md" },
+        { "Правила оформления статей базы знаний" = "kb-architecture/kb-markdown-rules.md" }
+    ]}
+]
