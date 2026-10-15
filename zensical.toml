@@ -4,20 +4,18 @@ site_description = "База знаний MkDocs"
 site_url = "https://your-domain.com" 
 
 # --- ВОЗМОЖНОСТИ САЙТА ---
-features = [
-    "navigation.tabs",
-    "navigation.top",         # Кнопка перемещения наверх
-    "navigation.instant",
-    "navigation.sticky",
-    "navigation.breadcrumbs",
-    "navigation.sections",
-    "toc.follow",
-    "search.suggest",
-    "search.highlight",
-    "search.share",
-    "content.code.copy",     # Кнопка копирования кода
-    "content.tooltips"
-]
+"features.navigation.tabs" = true
+"features.navigation.top" = true          # Принудительное включение кнопки «Наверх»
+"features.navigation.instant" = true
+"features.navigation.sticky" = true
+"features.navigation.breadcrumbs" = true
+"features.navigation.sections" = true
+"features.toc.follow" = true
+"features.search.suggest" = true
+"features.search.highlight" = true
+"features.search.share" = true
+"features.content.code.copy" = true      # Резервное принудительное включение копирования
+"features.content.tooltips" = true
 
 # --- НАВИГАЦИЯ ---
 nav = [
@@ -27,9 +25,7 @@ nav = [
         { "Концепция системы управления базой знаний" = "kb-architecture/kb-concept.md" },
         { "Порядок действий по созданию статьи базы знаний" = "kb-architecture/kb-create-article.md" },
         { "Правила оформления статей базы знаний" = "kb-architecture/kb-markdown-rules.md" },
-        { "Правила создания метаданных" = [
-            { "Инструкция по метаданным" = "kb-architecture/kb-article-metadata/kb-article-metadata.md" }
-        ]}
+        { "Инструкция по метаданным" = "kb-architecture/kb-article-metadata/kb-article-metadata.md" }
     ]}
 ]
 
