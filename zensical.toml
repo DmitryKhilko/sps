@@ -11,9 +11,7 @@ nav = [
         { "Концепция системы управления базой знаний" = "kb-architecture/kb-concept.md" },
         { "Порядок действий по созданию статьи базы знаний" = "kb-architecture/kb-create-article.md" },
         { "Правила оформления статей базы знаний" = "kb-architecture/kb-markdown-rules.md" },
-        { "Правила создания метаданных" = [
-            { "Инструкция по метаданным" = "kb-architecture/kb-article-metadata/kb-article-metadata.md" }
-        ]}
+        { "Правила создания метаданных" = "kb-architecture/kb-article-metadata/kb-article-metadata.md" }
     ]}
 ]
 
