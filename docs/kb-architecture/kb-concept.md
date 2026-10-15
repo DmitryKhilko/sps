@@ -206,4 +206,4 @@ Open-Source инструменты или локальные редакторы 
 [12]: #специальная-подготовка-текста-статей-для-rag-систем 
 [13]: <./kb-markdown-rules.md> ""
 [14]: <./kb-creating-article-rules.md> ""
-[15]: <../glossary.md#rag-система> ""
+[15]: <../glossary.md#rag-system> ""
