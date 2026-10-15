@@ -18,7 +18,7 @@
 
     Термины и определения, которые используются в базе знаний.
 
-    [:octicons-arrow-right-24: Открыть](glossary.md)
+    [:octicons-arrow-right-24: Открыть](glossary.md#article-overview){data-preview}
 
 -   :lucide-lightbulb: **Архитектура базы знаний**
 
@@ -26,6 +26,6 @@
 
     Принципы, правила построения и ведения базы знаний.
 
-    [:octicons-arrow-right-24: Открыть](kb-architecture/kb-concept.md)
+    [:octicons-arrow-right-24: Открыть](kb-architecture/kb-concept.md#article-overview){data-preview}
 
 </div>
