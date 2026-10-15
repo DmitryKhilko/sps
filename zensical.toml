@@ -3,7 +3,23 @@ site_name = "Моя База Знаний"
 site_description = "База знаний MkDocs"
 site_url = "https://your-domain.com" 
 
-# --- НАВИГАЦИЯ (Перенесена наверх, строго в секцию [project]) ---
+# --- ВОЗМОЖНОСТИ САЙТА (В Zensical пишутся строго здесь!) ---
+features = [
+    "navigation.tabs",
+    "navigation.top",         # Кнопка перемещения наверх
+    "navigation.instant",
+    "navigation.sticky",
+    "navigation.breadcrumbs",
+    "navigation.sections",
+    "toc.follow",
+    "search.suggest",
+    "search.highlight",
+    "search.share",
+    "content.code.copy",     # Кнопка копирования кода
+    "content.tooltips"
+]
+
+# --- НАВИГАЦИЯ ---
 nav = [
     { "О базе знаний" = "index.md" },
     { "Глоссарий" = "glossary.md" },
@@ -11,11 +27,13 @@ nav = [
         { "Концепция системы управления базой знаний" = "kb-architecture/kb-concept.md" },
         { "Порядок действий по созданию статьи базы знаний" = "kb-architecture/kb-create-article.md" },
         { "Правила оформления статей базы знаний" = "kb-architecture/kb-markdown-rules.md" },
-        { "Правила создания метаданных" = "kb-architecture/kb-article-metadata/kb-article-metadata.md" }
+        { "Правила создания метаданных" = [
+            { "Инструкция по метаданным" = "kb-architecture/kb-article-metadata/kb-article-metadata.md" }
+        ]}
     ]}
 ]
 
-# --- НАСТРОЙКИ ТЕМЫ ---
+# --- НАСТРОЙКИ ВНЕШНЕГО ВИДА ---
 [project.theme]
 name = "material"
 language = "ru"
@@ -38,34 +56,6 @@ media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 primary = "black"
 accent = "indigo"
-[project.theme.palette.toggle]
+[project.theme.palette.toggle"
 icon = "material/weather-sunny"
 name = "Включить светлую тему"
-
-# --- ВОЗМОЖНОСТИ ТЕМЫ (FEATURES) ---
-features = [
-    "navigation.tabs",
-    "navigation.top",         # Кнопка «Наверх»
-    "navigation.instant",
-    "navigation.sticky",
-    "navigation.breadcrumbs",
-    "navigation.sections",
-    "toc.follow",
-    "search.suggest",
-    "search.highlight",
-    "search.share",
-    "content.code.copy",     # Кнопка копирования кода
-    "content.tooltips"
-]
-
-[project.theme.features.toc]
-follow = true
-
-[project.theme.features.search]
-suggest = true
-highlight = true
-share = true
-
-[project.theme.features.content]
-"code.copy" = true
-tooltips = true
