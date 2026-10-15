@@ -195,4 +195,3 @@ Generation (выполнение запроса в онлайн-режиме). �
 [14]: #rag
 [15]: #rag-system
 [16]: #rag-system-components
-
