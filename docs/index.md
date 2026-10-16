@@ -12,17 +12,13 @@
 
 <div class="grid cards" markdown>
 
--   :lucide-book-open: **Глоссарий**
+-   :lucide-book-open: [**Глоссарий**](glossary.md#article-overview){ data-preview }
 
     Термины и определения, которые используются в базе знаний.
 
-    [:octicons-arrow-right-24: Открыть](glossary.md#article-overview){ data-preview }
-
--   :lucide-lightbulb: **Архитектура базы знаний**
+-   :lucide-lightbulb: [**Архитектура базы знаний**](kb-architecture/kb-concept.md#article-overview){ data-preview }
 
     Принципы, правила построения и ведения базы знаний.
-
-    [:octicons-arrow-right-24: Открыть](kb-architecture/kb-concept.md#article-overview){ data-preview }
 
 </div>
 
