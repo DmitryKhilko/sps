@@ -10,19 +10,18 @@
 База знаний используется также как "полигон" для исследования способов создания и ведения документации: порядков 
 действий, требований к программному продукту, инструкций пользователя и других документов.
 
-::: grid
+<div class="grid cards" markdown>
 
 -   :lucide-book-open: **Глоссарий**
 
     Термины и определения, которые используются в базе знаний.
 
-    [:octicons-arrow-right-24: Открыть](glossary.md#article-overview){data-preview}
+    [:octicons-arrow-right-24: Открыть](glossary.md#article-overview){ data-preview }
 
 -   :lucide-lightbulb: **Архитектура базы знаний**
 
     Принципы, правила построения и ведения базы знаний.
 
-    [:octicons-arrow-right-24: Открыть](kb-architecture/kb-concept.md#article-overview){data-preview}
+    [:octicons-arrow-right-24: Открыть](kb-architecture/kb-concept.md#article-overview){ data-preview }
 
-:::
-
+</div>
