@@ -8,7 +8,7 @@
   position: static !important;
 }
 
-.grid.cards > ul > li a::after {
+.grid.cards > ul > li a::before {
   content: "";
   position: absolute;
   inset: 0;
