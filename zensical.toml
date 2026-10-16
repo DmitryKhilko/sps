@@ -59,7 +59,7 @@ features = [
     "content.action.edit",      # кнопка «Править страницу» (нужны repo_url и edit_uri)
     "content.footnote.tooltips",
     # прочее
-    "header.autohide",
+    # "header.autohide",
 ]
 
 [project.theme.font]
