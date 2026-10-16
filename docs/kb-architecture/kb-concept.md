@@ -193,6 +193,6 @@ Open-Source инструменты или локальные редакторы 
 Полный перечень требований к файлам базы знаний, технических правил форматирования структурных элементов, ограничения на 
 размеры структурных элементов описаны в статье ["Правила оформления статей базы знаний"][13]{data-preview}.
 
-[13]: <./kb-markdown-rules.md> ""
-[14]: <./kb-creating-article-rules.md#article-overview> ""
+[13]: <./kb-markdown-rules.md#article-overview> ""
+[14]: <./kb-creating-article.md#article-overview> ""
 [15]: <../glossary.md#rag-system> ""
