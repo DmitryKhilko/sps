@@ -25,3 +25,11 @@
     [:octicons-arrow-right-24: Открыть](kb-architecture/kb-concept.md#article-overview){ data-preview }
 
 </div>
+
+
+```mermaid
+flowchart LR
+    A[Черновик] --> B{Проверка}
+    B -->|Принято| C[Опубликовано]
+    B -->|Замечания| A
+```
