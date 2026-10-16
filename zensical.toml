@@ -9,6 +9,7 @@ site_author = "Дмитрий Хилько"
 repo_url = "https://github.com/dmitrykhilko/sps"
 repo_name = "GitHub"
 edit_uri = "edit/main/docs/"
+extra_css = ["stylesheets/extra.css"]
 
 # Не публиковать служебные файлы (скрипты, схемы, таксономию)
 # exclude_docs = """
