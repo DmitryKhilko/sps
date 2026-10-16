@@ -11,7 +11,7 @@
 действий, требований к программному продукту, инструкций пользователя и других документов.
 
 
-<div class="grid cards" markdown>
+::: grid
 
 -   :lucide-book-open: **Глоссарий**
 
@@ -29,4 +29,4 @@
 
     [:octicons-arrow-right-24: Открыть](kb-architecture/kb-concept.md#article-overview){data-preview}
 
-</div>
+:::
