@@ -194,5 +194,5 @@ Open-Source инструменты или локальные редакторы 
 размеры структурных элементов описаны в статье ["Правила оформления статей базы знаний"][13]{data-preview}.
 
 [13]: <./kb-markdown-rules.md#article-overview> ""
-[14]: <./kb-creating-article.md#article-overview> ""
+[14]: <./kb-create-article.md#article-overview> ""
 [15]: <../glossary.md#rag-system> ""
