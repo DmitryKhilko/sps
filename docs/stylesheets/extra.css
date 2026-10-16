@@ -1,12 +1,16 @@
 /* Вся плитка кликабельна */
-.md-typeset .grid.cards > ul > li {
-  position: relative;
+.grid.cards > ul > li {
+  position: relative !important;
   cursor: pointer;
 }
 
-.md-typeset .grid.cards > ul > li a::after {
+.grid.cards > ul > li a {
+  position: static !important;
+}
+
+.grid.cards > ul > li a::after {
   content: "";
   position: absolute;
-  inset: 0;          /* растягиваем ссылку на всю плитку */
+  inset: 0;
   z-index: 1;
 }
