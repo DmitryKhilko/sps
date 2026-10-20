@@ -21,17 +21,3 @@
     Принципы, правила построения и ведения базы знаний.
 
 </div>
-
-```mermaid
-flowchart TD
-    A["Автор:<br>написать статью"] --> B["Автор:<br>отправить на проверку"]
-    B --> C["Рецензент:<br>проверить"]
-    C --> D{Замечания?}
-    D -->|Нет| E([Опубликовано])
-    D -->|Да| A
-
-    classDef author fill:#e0f2f1,stroke:#00897b,color:#004d40
-    classDef reviewer fill:#ede7f6,stroke:#5e35b1,color:#311b92
-    class A,B author
-    class C,D reviewer
-```
