@@ -10,12 +10,11 @@
 }
 
 /* Окно предпросмотра ссылки {data-preview} в тёмной схеме */
-[data-md-color-scheme="slate"] .md-tooltip2__inner {
-  --md-default-bg-color: #212833;   /* накладки сверху и снизу берут этот цвет */
-  background-color: #212833 !important;
-  color: #e2e8f0 !important;
+[data-md-color-scheme="slate"] .md-tooltip2 {
+  --md-default-bg-color: #212833;   /* фон окна, накладки и стрелка берут этот цвет */
 }
 
-[data-md-color-scheme="slate"] .md-tooltip2:after {
+[data-md-color-scheme="slate"] .md-tooltip2__inner {
   background-color: #212833 !important;
+  color: #e2e8f0 !important;
 }
