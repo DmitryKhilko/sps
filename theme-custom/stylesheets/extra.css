@@ -2,21 +2,19 @@
   cursor: pointer;
 }
 
-/* Переопределяем цвета для темной схемы slate */
+/* Цвета для тёмной схемы slate */
 [data-md-color-scheme="slate"] {
   --md-default-bg-color: #131720;         /* Основной фон страниц */
-  --md-default-bg-color--light: #212833;  /* Фон для блоков кода, всплывающих окон */
-  --md-code-bg-color: #212833;            /* Фон для инлайн-кода */
-
-  /* Переменные для встроенного плагина превью Zensical */
-  --md-preview-bg-color: #212833;         /* Фон карточки предпросмотра */
-  --md-preview-fg-color: #e2e8f0;         /* Цвет текста в карточке */
+  --md-default-bg-color--light: #212833;  /* Фон блоков кода, всплывающих окон */
+  --md-code-bg-color: #212833;            /* Фон инлайн-кода */
 }
 
-/* На случай, если плагин использует жесткие классы Material, переопределяем их явно: */
-[data-md-color-scheme="slate"] .md-typeset .preview-card,
-[data-md-color-scheme="slate"] .md-annotation__card {
-  background-color: #212833 !important;   /* Задаем цвет фона, как у блоков кода */
-  color: #e2e8f0 !important;              /* Задаем мягкий цвет текста */
-  border-color: #2c3545 !important;        /* Цвет легкой рамки вокруг окна */
+/* Окно предпросмотра ссылки {data-preview} в тёмной схеме */
+[data-md-color-scheme="slate"] .md-tooltip2__inner {
+  background-color: #212833 !important;   /* фон окна */
+  color: #e2e8f0 !important;              /* текст в окне */
+}
+
+[data-md-color-scheme="slate"] .md-tooltip2:after {
+  background-color: #212833 !important;   /* стрелка-указатель окна */
 }
