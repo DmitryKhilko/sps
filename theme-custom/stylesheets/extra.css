@@ -8,7 +8,15 @@
   --md-default-bg-color--light: #212833;  /* Фон для блоков кода, всплывающих окон */
   --md-code-bg-color: #212833;            /* Фон для инлайн-кода */
 
-  /* НАСТРОЙКА ЦВЕТА ПРЕДПРОСМОТРА ССЫЛОК И ПОДСКАЗОК */
-  --md-tooltip-bg-color: #212833;         /* Фон окна предпросмотра (сделан как блоки кода) */
-  --md-tooltip-fg-color: #e2e8f0;         /* Цвет текста внутри предпросмотра (светло-серый) */
+  /* Переменные для встроенного плагина превью Zensical */
+  --md-preview-bg-color: #212833;         /* Фон карточки предпросмотра */
+  --md-preview-fg-color: #e2e8f0;         /* Цвет текста в карточке */
+}
+
+/* На случай, если плагин использует жесткие классы Material, переопределяем их явно: */
+[data-md-color-scheme="slate"] .md-typeset .preview-card,
+[data-md-color-scheme="slate"] .md-annotation__card {
+  background-color: #212833 !important;   /* Задаем цвет фона, как у блоков кода */
+  color: #e2e8f0 !important;              /* Задаем мягкий цвет текста */
+  border-color: #2c3545 !important;        /* Цвет легкой рамки вокруг окна */
 }
