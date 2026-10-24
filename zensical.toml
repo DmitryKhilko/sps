@@ -33,6 +33,7 @@ nav = [
 # --- ТЕМА ---
 [project.theme]
 language = "ru"
+custom_dir = "theme_custom"  # Zensical будет брать стили и скрипты отсюда
 # Все возможности включаются ОДНИМ списком внутри [project.theme]
 features = [
     # навигация
