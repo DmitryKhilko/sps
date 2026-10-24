@@ -11,10 +11,11 @@
 
 /* Окно предпросмотра ссылки {data-preview} в тёмной схеме */
 [data-md-color-scheme="slate"] .md-tooltip2__inner {
-  background-color: #212833 !important;   /* фон окна */
-  color: #e2e8f0 !important;              /* текст в окне */
+  --md-default-bg-color: #212833;   /* накладки сверху и снизу берут этот цвет */
+  background-color: #212833 !important;
+  color: #e2e8f0 !important;
 }
 
 [data-md-color-scheme="slate"] .md-tooltip2:after {
-  background-color: #212833 !important;   /* стрелка-указатель окна */
+  background-color: #212833 !important;
 }
