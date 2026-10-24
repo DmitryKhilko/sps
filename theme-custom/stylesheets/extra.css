@@ -1,3 +1,10 @@
 .grid.cards li {
   cursor: pointer;
 }
+
+/* Переопределяем цвета для темной схемы slate */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #131720;         /* Основной фон страниц */
+  --md-default-bg-color--light: #212833;  /* Фон для блоков кода, всплывающих окон */
+  --md-code-bg-color: #212833;            /* Фон для инлайн-кода */
+}
